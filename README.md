@@ -104,11 +104,11 @@ Quantity<br>
 
 ROTA<br>
 -
-Row_id pk<br>
-Rota_id<br>
-Date fk<br>
-Shift_id fk<br>
-Staff_id fk<br>
+Row_id intpk<br>
+Rota_id int <br>
+Date date fk<br>
+Shift_id int fk<br>
+Staff_id int fk<br>
 
 STAFF<br>
 -
