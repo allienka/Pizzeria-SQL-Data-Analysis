@@ -34,7 +34,6 @@ Inventory management:<br>
 - percentage stock remaining by ingredients<br>
 
 
-
 # PREREQUISITES<br>
 - Install MySQLWorkbench or Xampp<br>
 - Any Editor (Preferably VS Code or Sublime Text)<br>
@@ -47,3 +46,84 @@ Inventory management:<br>
 - Tableau public<br>
 
 # Fields in datasets <br>
+
+ORDERS<br>
+-
+Row ID  int pk<br>
+Order ID  varchar(10)<br>
+Created at datetime<br>
+Quantity int<br>
+Delivery boolean<br>
+Cust_id int fk<br>
+Add_id int fk<br>
+Item-id int fk<br>
+
+CUSTOMERS<br>
+-
+Cust_id int pk<br>
+Cust_ firstname varchar(50)<br>
+Cust_lastname varchar(50)<br>
+
+
+ADDRESS<br>
+-
+Add_id int pk<br>
+Delivery address 1 varchar(200)<br>
+Delivery address 2 varchar(200) NULL<br>
+Delivery city varchar(50)<br>
+Delivery zip code varchar(20)<br>
+
+ITEM<br>
+-
+Item_id varchar(10) pk <br>
+Item name varchar(50)<br>
+Item category varchar(50)<br>
+Item size varchar(20)<br>
+Item price decimal(5,2)<br>
+
+INGREDIENT<br>
+-
+Ing_id varchar(10) pk<br>
+Ing_name varchar(20)<br>
+Ing_weight int<br>
+Ing_meas varchar(20)<br>
+Ing_price decimal (5,2)<br>
+
+RECIPE<br>
+-
+Row_id int pk<br>
+Recipe_id varchar(20) fk<br>
+Ing_id varchar(10) fk<br>
+Quantity int<br>
+
+INVENTORY<br>
+-
+Inv_id int pk<br>
+Item_id varchar(10) fk   <br>
+Quantity<br>
+
+ROTA<br>
+-
+Row_id pk<br>
+Rota_id<br>
+Date fk<br>
+Shift_id fk<br>
+Staff_id fk<br>
+
+STAFF<br>
+-
+Staff_id varchar(20) pk<br>
+First_name varchar(20) <br>
+Last_name varchar(20)<br>
+Position varchar(20)<br>
+Hourly_rate decimal (5,2)<br>
+
+SHIFT<br>
+-
+Shift_id pk<br>
+Day_of_week varchar(10)<br>
+Start_time time<br>
+End_time time<br>
+
+
+
