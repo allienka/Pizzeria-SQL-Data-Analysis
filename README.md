@@ -118,6 +118,9 @@ Last_name varchar(20)<br>
 Position varchar(20)<br>
 Hourly_rate decimal (5,2)<br>
 
+
+
+
 SHIFT<br>
 -
 Shift_id pk<br>
@@ -127,3 +130,7 @@ End_time time<br>
 
 
 
+
+# DASHBOARDS<br>
+![Screenshot 2023-06-08 104125](https://github.com/allienka/Pizzeria-SQL-Data-Analysis/assets/105230372/da52fc2b-2423-4330-9f4a-6eec78f07a92)
+![Screenshot 2023-06-08 104137](https://github.com/allienka/Pizzeria-SQL-Data-Analysis/assets/105230372/0c88d91f-37d5-428e-9ac6-aa7d9301dd46)
