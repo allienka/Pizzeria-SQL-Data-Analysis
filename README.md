@@ -133,4 +133,6 @@ End_time time<br>
 
 # DASHBOARDS<br>
 ![Screenshot 2023-06-08 104125](https://github.com/allienka/Pizzeria-SQL-Data-Analysis/assets/105230372/da52fc2b-2423-4330-9f4a-6eec78f07a92)
-![Screenshot 2023-06-08 104137](https://github.com/allienka/Pizzeria-SQL-Data-Analysis/assets/105230372/0c88d91f-37d5-428e-9ac6-aa7d9301dd46)
+![Screenshot 2023-06-08 104137](https:/![Screenshot 2023-06-09 104532](https://github.com/allienka/Pizzeria-SQL-Data-Analysis/assets/105230372/f058f1e2-f8da-42e4-8777-5a58c003e2c2)
+/github.com/allienka/Pizzeria-SQL-Data-Analysis/assets/105230372/0c88d91f-37d5-428e-9ac6-aa7d9301dd46)
+![Screenshot 2023-06-09 104522](https://github.com/allienka/Pizzeria-SQL-Data-Analysis/assets/105230372/3a3d5902-0f67-4399-835d-8f94c260d07c)
